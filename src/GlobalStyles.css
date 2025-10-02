@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html{
+   scroll-behavior: auto !important;
+}
+
 
 
 .glow-circle {
@@ -136,14 +140,17 @@
    box-shadow: none;
 }
   
+
+
+
+
+/* social icons */
 .social-icons {
    display: flex;
    gap: 15px;
    margin-top: 20px;
 }
-html{
-   scroll-behavior: auto !important;
-}
+
 .social-icons a {
    display: inline-flex;
    align-items: center;
@@ -260,7 +267,7 @@ html{
 }
   
 .social-icons a {
-   animation: bounceIn 0.6s ease forwards;
+   animation: bounce 2s infinite;
 }
   
   
@@ -713,7 +720,7 @@ html{
 }
 
 .social-icons a:hover {
-  color: #0BC1C4;
+  color: #ffffff;
   transform: scale(1.2);
 }
 
@@ -731,4 +738,6 @@ html{
   width: 40px;
   height: 40px;
   object-fit: contain;
-}
+} 
+
+
